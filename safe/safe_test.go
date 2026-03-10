@@ -10,7 +10,6 @@ func TestMustAtPositive(t *testing.T) {
 	if i != "second" {
 		t.Errorf("Expected 'second' but got '%s'", i)
 	}
-
 }
 
 func TestMustAtIndexLessZero(t *testing.T) {
