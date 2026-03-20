@@ -16,7 +16,7 @@ func assertStringEqual(t *testing.T, got, want string) {
 func assertIntEqual(t *testing.T, got, want int) {
 	t.Helper()
 	if got != want {
-		t.Errorf("We got %q, but want %q", got, want)
+		t.Errorf("We got %d, but want %d", got, want)
 	}
 }
 
